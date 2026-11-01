@@ -31,7 +31,7 @@ public class VibraslapItem extends Item {
         Vec3 eyeLookAngle = player.getLookAngle();
         Vec3 eyePosition = player.getEyePosition();
         for (LivingEntity targetEntity : entities) {
-            if (targetEntity != null) {
+            if (targetEntity != null && player.hasLineOfSight(targetEntity)) {
                 Vec3 targetPosition = targetEntity.getPosition(1.0f);
                 Vec3 playerEntityVec = targetPosition.subtract(eyePosition);
                 double angle = Math.acos(eyeLookAngle.dot(playerEntityVec) / (eyeLookAngle.length() * playerEntityVec.length()));
