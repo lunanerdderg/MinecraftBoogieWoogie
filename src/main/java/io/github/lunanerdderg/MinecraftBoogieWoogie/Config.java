@@ -1,4 +1,4 @@
-package io.github.lunanerdderg.MinecraftManganeseNodules;
+package io.github.lunanerdderg.MinecraftBoogieWoogie;
 
 import java.util.List;
 

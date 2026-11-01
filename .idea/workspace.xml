@@ -5,21 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bf7095a-6aca-4284-9088-e7513a7d874b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/TemplateMod/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/TemplateMod/ManganeseNodules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/BoogieWoogie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/TemplateMod/ManganeseNodulesClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/BoogieWoogieClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/manganesenodules/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/manganesenodules/lang/es_ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/lang/es_ar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/manganesenodules/lang/es_cl.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/lang/es_cl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/manganesenodules/lang/es_ec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/lang/es_ec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/manganesenodules/lang/es_es.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/lang/es_es.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/manganesenodules/lang/es_mx.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/lang/es_mx.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/manganesenodules/lang/es_uy.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/lang/es_uy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/manganesenodules/lang/es_ve.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/lang/es_ve.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/templates/META-INF/neoforge.mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/templates/META-INF/neoforge.mods.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/item/ModItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/models/item/vibraslap.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/textures/item/vibraslap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/lunanerdderg/MinecraftBoogieWoogie/BoogieWoogie.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/lunanerdderg/MinecraftBoogieWoogie/BoogieWoogie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/lunanerdderg/MinecraftManganeseNodules/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/boogiewoogie/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/boogiewoogie/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/BoogieWoogie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/BoogieWoogie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/item/custom/VibraslapItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/item/custom/VibraslapItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/lang/en_us.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +45,31 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MinecraftBoogieWoogie" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MinecraftBoogieWoogie" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,6 +86,13 @@
     "accountId": "ce42e090-0114-4a50-a79b-6eb7cf5762ae"
   }
 }]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="printErrorStackTraces" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8,
   "fromUser": false
@@ -66,14 +103,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.MinecraftBoogieWoogie [:net.neoforged.devlaunch.Main.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+    "last_opened_file_path": "/home/luna/Documents/Programming/eclipse-workspace/MinecraftBoogieWoogie/src/main/resources/assets/boogiewoogie/textures/item",
+    "settings.editor.selected.configurable": "Debugger_Data_Views_Java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/textures/item" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/textures" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
