@@ -46,7 +46,7 @@ authors="lunanerdderg"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Example description
+Aoi Todo's technique, Boogie Woogie, brought into Minecraft!
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.

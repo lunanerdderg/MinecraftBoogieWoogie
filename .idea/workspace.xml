@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3bf7095a-6aca-4284-9088-e7513a7d874b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/TemplateMod/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/TemplateMod/ManganeseNodules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/BoogieWoogie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/TemplateMod/ManganeseNodulesClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/BoogieWoogieClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/manganesenodules/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/manganesenodules/lang/es_ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/lang/es_ar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/manganesenodules/lang/es_cl.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/lang/es_cl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/manganesenodules/lang/es_ec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/lang/es_ec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/manganesenodules/lang/es_es.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/lang/es_es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/manganesenodules/lang/es_mx.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/lang/es_mx.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/manganesenodules/lang/es_uy.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/lang/es_uy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/manganesenodules/lang/es_ve.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/lang/es_ve.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/templates/META-INF/neoforge.mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/templates/META-INF/neoforge.mods.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lunanerdderg"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lunanerdderg/MinecraftBoogieWoogie.git",
+    "accountId": "ce42e090-0114-4a50-a79b-6eb7cf5762ae"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3LUUglk5U0TLVhBwug7jyk0WJKg" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="MinecraftBoogieWoogie.main" />
+      <option name="PROGRAM_PARAMETERS" value="@$PROJECT_DIR$/build/moddev/clientRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@$PROJECT_DIR$/build/moddev/clientRunVmArgs.txt -Dfml.modFolders=boogiewoogie%%$PROJECT_DIR$/build/classes/java/main:boogiewoogie%%$PROJECT_DIR$/build/resources/main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Data" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="MinecraftBoogieWoogie.main" />
+      <option name="PROGRAM_PARAMETERS" value="@$PROJECT_DIR$/build/moddev/dataRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@$PROJECT_DIR$/build/moddev/dataRunVmArgs.txt -Dfml.modFolders=boogiewoogie%%$PROJECT_DIR$/build/classes/java/main:boogiewoogie%%$PROJECT_DIR$/build/resources/main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTestServer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="MinecraftBoogieWoogie.main" />
+      <option name="PROGRAM_PARAMETERS" value="@$PROJECT_DIR$/build/moddev/gameTestServerRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@$PROJECT_DIR$/build/moddev/gameTestServerRunVmArgs.txt -Dfml.modFolders=boogiewoogie%%$PROJECT_DIR$/build/classes/java/main:boogiewoogie%%$PROJECT_DIR$/build/resources/main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="MinecraftBoogieWoogie.main" />
+      <option name="PROGRAM_PARAMETERS" value="@$PROJECT_DIR$/build/moddev/serverRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@$PROJECT_DIR$/build/moddev/serverRunVmArgs.txt -Dfml.modFolders=boogiewoogie%%$PROJECT_DIR$/build/classes/java/main:boogiewoogie%%$PROJECT_DIR$/build/resources/main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3bf7095a-6aca-4284-9088-e7513a7d874b" name="Changes" comment="" />
+      <created>1793508256055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793508256055</updated>
+    </task>
+    <servers />
+  </component>
+</project>
