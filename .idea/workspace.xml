@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bf7095a-6aca-4284-9088-e7513a7d874b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/configuration-cache/configuration-cache.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/configuration-cache/configuration-cache.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/lunanerdderg/MinecraftBoogieWoogie/BoogieWoogie.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/lunanerdderg/MinecraftBoogieWoogie/BoogieWoogie.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/lunanerdderg/MinecraftBoogieWoogie/item/custom/VibraslapItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/lunanerdderg/MinecraftBoogieWoogie/item/custom/VibraslapItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ModItems.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/VibraslapItem.class.uniqueId1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2026-11-01-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-11-01-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2026-11-01-10.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-11-01-10.log.gz" afterDir="false" />
@@ -65,6 +63,7 @@
       <change beforePath="$PROJECT_DIR$/run/logs/2026-11-01-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-11-01-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2026-11-01-50.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-11-01-50.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2026-11-01-51.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-11-01-51.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2026-11-01-52.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-11-01-52.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2026-11-01-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-11-01-6.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2026-11-01-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-11-01-7.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2026-11-01-8.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2026-11-01-8.log.gz" afterDir="false" />
@@ -76,8 +75,10 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/random_sequences.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
@@ -88,6 +89,7 @@
       <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/poi/r.1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterDir="false" />
@@ -97,7 +99,7 @@
       <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.2.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.2.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/sounds.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/item/custom/VibraslapItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/item/custom/VibraslapItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

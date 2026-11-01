@@ -35,8 +35,9 @@ public class VibraslapItem extends Item {
                 Vec3 targetPosition = targetEntity.getPosition(1.0f);
                 Vec3 playerEntityVec = targetPosition.subtract(eyePosition);
                 double angle = Math.acos(eyeLookAngle.dot(playerEntityVec) / (eyeLookAngle.length() * playerEntityVec.length()));
-                if (angle < 0.2D) {
+                if (angle < 0.05D) {
                     this.swapEntities(player, targetEntity);
+                    return new InteractionResultHolder<ItemStack>(InteractionResult.PASS, new ItemStack(this));
                 }
             }
         }

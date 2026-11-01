@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:old_growth_birch_forest": "2026-11-01 01:07:43 -0500",
+      "minecraft:savanna_plateau": "2026-11-01 11:03:12 -0500",
       "minecraft:snowy_slopes": "2026-11-01 04:21:21 -0500",
       "minecraft:forest": "2026-11-01 02:59:53 -0500",
       "minecraft:cherry_grove": "2026-11-01 04:21:19 -0500",
