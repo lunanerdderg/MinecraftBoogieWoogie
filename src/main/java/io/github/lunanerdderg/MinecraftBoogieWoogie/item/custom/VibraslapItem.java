@@ -1,14 +1,14 @@
 package io.github.lunanerdderg.MinecraftBoogieWoogie.item.custom;
 
-//import net.minecraft.world.InteractionResult;
 import io.github.lunanerdderg.MinecraftBoogieWoogie.Config;
 import io.github.lunanerdderg.MinecraftBoogieWoogie.sound.ModSounds;
-import net.minecraft.client.renderer.entity.LivingEntityRenderer;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.multiplayer.ClientLevel;
+import net.minecraft.client.player.AbstractClientPlayer;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.Entity;
-//import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.ai.targeting.TargetingConditions;
 import net.minecraft.world.entity.player.Player;
@@ -16,64 +16,104 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
-import net.neoforged.fml.event.IModBusEvent;
-import net.neoforged.fml.loading.log4j.ForgeHighlight;
-import net.neoforged.neoforge.client.event.ClientTickEvent;
 import net.neoforged.neoforge.client.event.RenderFrameEvent;
-import net.neoforged.neoforge.client.event.RenderPlayerEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
-import net.neoforged.neoforge.event.tick.EntityTickEvent;
 import net.neoforged.neoforge.event.tick.PlayerTickEvent;
-import org.jetbrains.annotations.NotNull;
-import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import java.util.List;
 //import net.minecraft.world.item.context.UseOnContext;
 
 public class VibraslapItem extends Item {
-    private static LivingEntity target = null;
+    private static LivingEntity previousTarget = null;
+    private static LivingEntity curTarget = null;
 
     public VibraslapItem(Properties properties) {
         super(properties);
     }
 
     @Override
-    public @NotNull InteractionResultHolder<ItemStack> use(@NotNull Level level, @NotNull Player player, @NotNull InteractionHand usedHand) {
-        if (!Config.BOOGIEWOOGIE_HIGHLIGHT.getAsBoolean()) {
-            updateTarget(player, level);
-        }
+    public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand usedHand) {
+        LivingEntity target = getTarget(player, level);;
         if (target != null) {
             swapEntities(player, target);
         }
         return new InteractionResultHolder<ItemStack>(InteractionResult.PASS, new ItemStack(this));
     }
 
-    public static void onTick(RenderPlayerEvent.Pre event) {
+    public static void onTick(PlayerTickEvent.Pre event) {
         if (Config.BOOGIEWOOGIE_HIGHLIGHT.getAsBoolean()) {
-            if (target != null) {
-                target.setGlowingTag(false);
+            curTarget = getTarget(event.getEntity(), event.getEntity().level());
+            if (curTarget != null) {
+                curTarget.setGlowingTag(true);
             }
-            updateTarget(event.getEntity(), event.getEntity().level());
-            if (target != null) {
-                target.setGlowingTag(true);
+            if (curTarget == null || !curTarget.equals(previousTarget)) {
+                if (previousTarget != null) {
+                    previousTarget.setGlowingTag(false);
+                }
             }
+            previousTarget = getTarget(event.getEntity(), event.getEntity().level());
         }
     }
 
-//    public static void onFrame(RenderFrameEvent event) {
+//    public static void onStartTracking(PlayerEvent.StartTracking event) {
 //        if (Config.BOOGIEWOOGIE_HIGHLIGHT.getAsBoolean()) {
-//            if (target != null) {
-//                target.setGlowingTag(false);
+//            curTarget = getTarget(event.getEntity(), event.getEntity().level());
+//            if (curTarget != null) {
+//                curTarget.setGlowingTag(true);
 //            }
-//            if (target != null) {
-//                target.setGlowingTag(true);
+//            if (curTarget == null || !curTarget.equals(previousTarget)) {// || !curTarget.is(previousTarget)) {
+//                if (previousTarget != null) {
+//                    previousTarget.setGlowingTag(false);
+//                }
 //            }
+//            previousTarget = getTarget(event.getEntity(), event.getEntity().level());
 //        }
 //    }
 
-    public static void updateTarget(Player player, Level level) {
+//    public static void onStopTracking(PlayerEvent.StopTracking event) {
+//        if (Config.BOOGIEWOOGIE_HIGHLIGHT.getAsBoolean()) {
+//            curTarget = getTarget(event.getEntity(), event.getEntity().level());
+//            if (curTarget != null) {
+//                curTarget.setGlowingTag(true);
+//            }
+//            if (curTarget == null || !curTarget.equals(previousTarget)) {
+//                if (previousTarget != null) {
+//                    previousTarget.setGlowingTag(false);
+//                }
+//            }
+//            previousTarget = getTarget(event.getEntity(), event.getEntity().level());
+//        }
+//    }
+//
+//    public static void onFrame(RenderFrameEvent.Pre event) {
+//        if (Config.BOOGIEWOOGIE_HIGHLIGHT.getAsBoolean()) {
+////            if (switchedTargets) {
+//                ClientLevel level = Minecraft.getInstance().level;
+//                if (level != null /* && level.isClientSide()*/) {
+//                    List<AbstractClientPlayer> players = level.players();
+//                    for (AbstractClientPlayer player : players) {
+//                        if (player != null) {
+//                            previousTarget = getTarget(player, player.level());
+//                            if (Config.BOOGIEWOOGIE_HIGHLIGHT.getAsBoolean()) {
+//                                curTarget = getTarget(player, player.level());
+//                                if (curTarget != null) {
+//                                    curTarget.setGlowingTag(true);
+//                                }
+//                                if (curTarget == null || !curTarget.equals(previousTarget)) {
+//                                    if (previousTarget != null) {
+//                                        previousTarget.setGlowingTag(false);
+//                                    }
+//
+//                                }
+//                                previousTarget = getTarget(player, player.level());
+//                            }
+//                        }
+//                    }
+//                }
+//        }
+//    }
+
+    public static LivingEntity getTarget(Player player, Level level) {
         double RANGE = Config.BOOGIEWOOGIE_RANGE.getAsInt();
         List<LivingEntity> entities = level.getNearbyEntities(LivingEntity.class, TargetingConditions.DEFAULT, player, player.getBoundingBox().inflate(RANGE, RANGE, RANGE));
         Vec3 eyeLookAngle = player.getLookAngle();
@@ -84,17 +124,14 @@ public class VibraslapItem extends Item {
                 Vec3 playerEntityVec = targetPosition.subtract(eyePosition);
                 double angle = Math.acos(eyeLookAngle.dot(playerEntityVec) / (eyeLookAngle.length() * playerEntityVec.length()));
                 if (eyePosition.distanceTo(targetPosition) >= 6.0D && angle < 0.1D) {
-                    target = targetEntity;
-                    return;
-//                    return targetEntity;
+                    return targetEntity;
                 }
             }
         }
-        target = null;
-//        return null;
+        return null;
     }
 
-    public static void swapEntities(Entity player, Entity entity) {
+    public void swapEntities(Entity player, Entity entity) {
         double entityX = entity.getX();
         double entityY = entity.getY();
         double entityZ = entity.getZ();
@@ -104,11 +141,5 @@ public class VibraslapItem extends Item {
         entity.moveTo(playerX, playerY, playerZ);
         player.moveTo(entityX, entityY, entityZ);
         player.playSound(ModSounds.BOOGIEWOOGIE_SOUND.get());
-//        return true;
     }
-
-//    @Override
-//    public InteractionResult useOn(UseOnContext context) {
-//        Entity entity = context.get
-//    }
 }

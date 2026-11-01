@@ -15,7 +15,7 @@ public class Config {
             .comment("The range at which you can use Boogie Woogie on a mob! (In blocks, not chunks)")
             .defineInRange("boogiewoogie_range", 64, 8, 128);
     public static final ModConfigSpec.BooleanValue BOOGIEWOOGIE_HIGHLIGHT = BUILDER
-            .comment("Reduces performance!")
+            .comment("Somewhat buggy!")
             .define("boogiewoogie_highlight", false);
 
     static final ModConfigSpec SPEC = BUILDER.build();

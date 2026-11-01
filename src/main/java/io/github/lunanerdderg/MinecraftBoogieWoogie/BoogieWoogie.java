@@ -32,6 +32,9 @@ public class BoogieWoogie {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
         NeoForge.EVENT_BUS.addListener(VibraslapItem::onTick);
+//        NeoForge.EVENT_BUS.addListener(VibraslapItem::onStartTracking);
+//        NeoForge.EVENT_BUS.addListener(VibraslapItem::onStopTracking);
+//        NeoForge.EVENT_BUS.addListener(VibraslapItem::onFrame);
 
         // Register ourselves for server and other game events we are interested in.Minecraft
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
