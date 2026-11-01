@@ -27,7 +27,8 @@ public class VibraslapItem extends Item {
 
     @Override
     public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand usedHand) {
-        List<LivingEntity> entities = level.getNearbyEntities(LivingEntity.class, TargetingConditions.DEFAULT, player, player.getBoundingBox().inflate(32, 32, 32));
+        double MAXIMUM_RANGE = 32D;
+        List<LivingEntity> entities = level.getNearbyEntities(LivingEntity.class, TargetingConditions.DEFAULT, player, player.getBoundingBox().inflate(MAXIMUM_RANGE, MAXIMUM_RANGE, MAXIMUM_RANGE));
         Vec3 eyeLookAngle = player.getLookAngle();
         Vec3 eyePosition = player.getEyePosition();
         for (LivingEntity targetEntity : entities) {
@@ -35,7 +36,7 @@ public class VibraslapItem extends Item {
                 Vec3 targetPosition = targetEntity.getPosition(1.0f);
                 Vec3 playerEntityVec = targetPosition.subtract(eyePosition);
                 double angle = Math.acos(eyeLookAngle.dot(playerEntityVec) / (eyeLookAngle.length() * playerEntityVec.length()));
-                if (angle < 0.05D) {
+                if (angle < 0.1D) {
                     this.swapEntities(player, targetEntity);
                     return new InteractionResultHolder<ItemStack>(InteractionResult.PASS, new ItemStack(this));
                 }
