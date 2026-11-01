@@ -1,6 +1,7 @@
 package io.github.lunanerdderg.MinecraftBoogieWoogie.item.custom;
 
 //import net.minecraft.world.InteractionResult;
+import io.github.lunanerdderg.MinecraftBoogieWoogie.Config;
 import io.github.lunanerdderg.MinecraftBoogieWoogie.sound.ModSounds;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
@@ -27,8 +28,8 @@ public class VibraslapItem extends Item {
 
     @Override
     public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand usedHand) {
-        double MAXIMUM_RANGE = 32D;
-        List<LivingEntity> entities = level.getNearbyEntities(LivingEntity.class, TargetingConditions.DEFAULT, player, player.getBoundingBox().inflate(MAXIMUM_RANGE, MAXIMUM_RANGE, MAXIMUM_RANGE));
+        double RANGE = (double)Config.BOOGIEWOOGIE_RANGE.getAsInt();
+        List<LivingEntity> entities = level.getNearbyEntities(LivingEntity.class, TargetingConditions.DEFAULT, player, player.getBoundingBox().inflate(RANGE, RANGE, RANGE));
         Vec3 eyeLookAngle = player.getLookAngle();
         Vec3 eyePosition = player.getEyePosition();
         for (LivingEntity targetEntity : entities) {
