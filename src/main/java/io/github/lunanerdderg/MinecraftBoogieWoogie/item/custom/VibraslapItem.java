@@ -1,6 +1,7 @@
 package io.github.lunanerdderg.MinecraftBoogieWoogie.item.custom;
 
 //import net.minecraft.world.InteractionResult;
+import io.github.lunanerdderg.MinecraftBoogieWoogie.sound.ModSounds;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionResultHolder;
@@ -51,7 +52,7 @@ public class VibraslapItem extends Item {
         double playerZ = player.getZ();
         entity.moveTo(playerX, playerY, playerZ);
         player.moveTo(entityX, entityY, entityZ);
-//        player.playSound();
+        player.playSound(ModSounds.BOOGIEWOOGIE_SOUND.get());
 //        return true;
     }
 

@@ -1,6 +1,7 @@
 package io.github.lunanerdderg.MinecraftBoogieWoogie;
 
 import io.github.lunanerdderg.MinecraftBoogieWoogie.item.ModItems;
+import io.github.lunanerdderg.MinecraftBoogieWoogie.sound.ModSounds;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -39,6 +40,8 @@ public class BoogieWoogie {
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
+
+        ModSounds.register(modEventBus);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);

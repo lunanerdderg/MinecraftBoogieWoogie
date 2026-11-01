@@ -5,29 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bf7095a-6aca-4284-9088-e7513a7d874b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/item/ModItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/models/item/vibraslap.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/textures/item/vibraslap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/sound/ModSounds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/sounds.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/lunanerdderg/MinecraftBoogieWoogie/BoogieWoogie.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/lunanerdderg/MinecraftBoogieWoogie/BoogieWoogie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/lunanerdderg/MinecraftManganeseNodules/Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/boogiewoogie/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/boogiewoogie/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/BoogieWoogie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/BoogieWoogie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/item/custom/VibraslapItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/lunanerdderg/MinecraftBoogieWoogie/item/custom/VibraslapItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/boogiewoogie.aup3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/boogiewoogie/boogiewoogie.ogg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
