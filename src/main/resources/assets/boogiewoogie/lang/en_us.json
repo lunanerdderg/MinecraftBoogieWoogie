@@ -1,3 +1,8 @@
 {
-  "item.boogiewoogie.vibraslap": "Vibraslap"
+  "item.boogiewoogie.vibraslap": "Vibraslap",
+  "boogiewoogie.configuration.title": "Boogie Woogie Configs",
+  "boogiewoogie.configuration.section.boogiewoogie.common.toml": "Boogie Woogie Configs",
+  "boogiewoogie.configuration.section.boogiewoogie.common.toml.title": "Boogie Woogie Configs",
+  "boogiewoogie.configuration.boogiewoogie_range": "Boogie Woogie range",
+  "boogiewoogie.configuration.boogiewoogie_highlight": "Highlight targeted mobs"
 }

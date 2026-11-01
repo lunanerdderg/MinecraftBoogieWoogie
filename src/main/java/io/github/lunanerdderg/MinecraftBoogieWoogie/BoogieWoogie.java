@@ -1,6 +1,7 @@
 package io.github.lunanerdderg.MinecraftBoogieWoogie;
 
 import io.github.lunanerdderg.MinecraftBoogieWoogie.item.ModItems;
+import io.github.lunanerdderg.MinecraftBoogieWoogie.item.custom.VibraslapItem;
 import io.github.lunanerdderg.MinecraftBoogieWoogie.sound.ModSounds;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -30,6 +31,7 @@ public class BoogieWoogie {
     public BoogieWoogie(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+        NeoForge.EVENT_BUS.addListener(VibraslapItem::onTick);
 
         // Register ourselves for server and other game events we are interested in.Minecraft
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
