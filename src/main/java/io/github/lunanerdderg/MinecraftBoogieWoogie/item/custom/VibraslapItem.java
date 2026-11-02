@@ -33,9 +33,12 @@ public class VibraslapItem extends Item {
 
     @Override
     public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand usedHand) {
-        LivingEntity target = getTarget(player, level);;
-        if (target != null) {
-            swapEntities(player, target);
+        if (!player.getCooldowns().isOnCooldown(this)) {
+            LivingEntity target = getTarget(player, level);;
+            if (target != null) {
+                swapEntities(player, target);
+            }
+            player.getCooldowns().addCooldown(this, Config.BOOGIEWOOGIE_COOLDOWN.getAsInt());
         }
         return new InteractionResultHolder<ItemStack>(InteractionResult.PASS, new ItemStack(this));
     }

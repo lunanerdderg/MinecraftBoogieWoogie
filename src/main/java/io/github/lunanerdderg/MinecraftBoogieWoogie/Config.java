@@ -11,6 +11,9 @@ import net.neoforged.neoforge.common.ModConfigSpec;
 public class Config {
     private static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
 
+    public static final ModConfigSpec.IntValue BOOGIEWOOGIE_COOLDOWN = BUILDER
+            .comment("The cooldown of Boogie Woogie! (In ticks, not seconds)")
+            .defineInRange("boogiewoogie_cooldown", 80, 1, 240);
     public static final ModConfigSpec.IntValue BOOGIEWOOGIE_RANGE = BUILDER
             .comment("The range at which you can use Boogie Woogie on a mob! (In blocks, not chunks)")
             .defineInRange("boogiewoogie_range", 64, 8, 128);

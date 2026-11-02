@@ -3,7 +3,8 @@
   "boogiewoogie.configuration.title": "Boogie Woogie Configs",
   "boogiewoogie.configuration.section.boogiewoogie.common.toml": "Boogie Woogie Configs",
   "boogiewoogie.configuration.section.boogiewoogie.common.toml.title": "Boogie Woogie Configs",
-  "boogiewoogie.configuration.boogiewoogie_range": "Boogie Woogie range",
-  "boogiewoogie.configuration.boogiewoogie_sensitivity": "Boogie Woogie vision cone angle",
+  "boogiewoogie.configuration.boogiewoogie_cooldown": "Cooldown",
+  "boogiewoogie.configuration.boogiewoogie_range": "Range",
+  "boogiewoogie.configuration.boogiewoogie_sensitivity": "Vision cone angle",
   "boogiewoogie.configuration.boogiewoogie_highlight": "Highlight targeted mobs"
 }

@@ -2,7 +2,8 @@ package io.github.lunanerdderg.MinecraftBoogieWoogie.item;
 
 import io.github.lunanerdderg.MinecraftBoogieWoogie.BoogieWoogie;
 import io.github.lunanerdderg.MinecraftBoogieWoogie.item.custom.VibraslapItem;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
+import net.minecraft.world.item.component.ItemAttributeModifiers;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
