@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "tag": "minecraft:planks"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "pattern": [
+    "IIB",
+    "I  ",
+    " IE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "boogiewoogie:vibraslap"
+  }
+}
