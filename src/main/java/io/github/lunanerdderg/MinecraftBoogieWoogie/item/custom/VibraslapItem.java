@@ -123,7 +123,7 @@ public class VibraslapItem extends Item {
                 Vec3 targetPosition = targetEntity.getPosition(1.0f);
                 Vec3 playerEntityVec = targetPosition.subtract(eyePosition);
                 double angle = Math.acos(eyeLookAngle.dot(playerEntityVec) / (eyeLookAngle.length() * playerEntityVec.length()));
-                if (eyePosition.distanceTo(targetPosition) >= 3.0D && angle < Config.BOOGIEWOOGIE_SENSITIVITY.getAsDouble()) {
+                if (eyePosition.distanceTo(targetPosition) >= 2.0D && angle < Config.BOOGIEWOOGIE_SENSITIVITY.getAsDouble()) {
                     return targetEntity;
                 }
             }
