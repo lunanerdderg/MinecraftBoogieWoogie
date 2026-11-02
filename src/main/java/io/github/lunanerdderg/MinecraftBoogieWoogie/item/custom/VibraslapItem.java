@@ -115,7 +115,7 @@ public class VibraslapItem extends Item {
 
     public static LivingEntity getTarget(Player player, Level level) {
         double RANGE = Config.BOOGIEWOOGIE_RANGE.getAsInt();
-        List<LivingEntity> entities = level.getNearbyEntities(LivingEntity.class, TargetingConditions.DEFAULT, player, player.getBoundingBox().inflate(RANGE, RANGE, RANGE));
+        List<LivingEntity> entities = level.getNearbyEntities(LivingEntity.class, TargetingConditions.DEFAULT, player, player.getBoundingBox().inflate(RANGE, RANGE/2, RANGE));
         Vec3 eyeLookAngle = player.getLookAngle();
         Vec3 eyePosition = player.getEyePosition();
         for (LivingEntity targetEntity : entities) {

@@ -16,7 +16,7 @@ public class Config {
             .defineInRange("boogiewoogie_range", 64, 8, 128);
     public static final ModConfigSpec.DoubleValue BOOGIEWOOGIE_SENSITIVITY = BUILDER
             .comment("The angle between your line of sight vector and the entity's position vector.")
-            .defineInRange("boogiewoogie_sensitivity", 0.050, 0.005D, 0.200D);
+            .defineInRange("boogiewoogie_sensitivity", 0.100D, 0.005D, 0.200D);
     public static final ModConfigSpec.BooleanValue BOOGIEWOOGIE_HIGHLIGHT = BUILDER
             .comment("Somewhat buggy!")
             .define("boogiewoogie_highlight", false);
