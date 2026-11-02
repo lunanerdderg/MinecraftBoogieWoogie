@@ -3,7 +3,11 @@ package io.github.lunanerdderg.MinecraftBoogieWoogie;
 import io.github.lunanerdderg.MinecraftBoogieWoogie.item.ModItems;
 import io.github.lunanerdderg.MinecraftBoogieWoogie.item.custom.VibraslapItem;
 import io.github.lunanerdderg.MinecraftBoogieWoogie.sound.ModSounds;
+import net.minecraft.client.KeyMapping;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent;
+import net.neoforged.neoforge.common.util.Lazy;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;

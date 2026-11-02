@@ -123,7 +123,7 @@ public class VibraslapItem extends Item {
                 Vec3 targetPosition = targetEntity.getPosition(1.0f);
                 Vec3 playerEntityVec = targetPosition.subtract(eyePosition);
                 double angle = Math.acos(eyeLookAngle.dot(playerEntityVec) / (eyeLookAngle.length() * playerEntityVec.length()));
-                if (eyePosition.distanceTo(targetPosition) >= 6.0D && angle < 0.1D) {
+                if (eyePosition.distanceTo(targetPosition) >= 3.0D && angle < Config.BOOGIEWOOGIE_SENSITIVITY.getAsDouble()) {
                     return targetEntity;
                 }
             }
@@ -132,14 +132,16 @@ public class VibraslapItem extends Item {
     }
 
     public void swapEntities(Entity player, Entity entity) {
-        double entityX = entity.getX();
-        double entityY = entity.getY();
-        double entityZ = entity.getZ();
-        double playerX = player.getX();
-        double playerY = player.getY();
-        double playerZ = player.getZ();
-        entity.moveTo(playerX, playerY, playerZ);
-        player.moveTo(entityX, entityY, entityZ);
-        player.playSound(ModSounds.BOOGIEWOOGIE_SOUND.get());
+        if (player != null && entity != null) {
+            double entityX = entity.getX();
+            double entityY = entity.getY();
+            double entityZ = entity.getZ();
+            double playerX = player.getX();
+            double playerY = player.getY();
+            double playerZ = player.getZ();
+            entity.absMoveTo(playerX, playerY, playerZ);
+            player.absMoveTo(entityX, entityY, entityZ);
+            player.playSound(ModSounds.BOOGIEWOOGIE_SOUND.get());
+        }
     }
 }
