@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd $HOME/Documents/Programming/eclipse-workspace/TemplateMod/
+cd $HOME/Documents/Programming/Minecraft-Modding/MinecraftBoogieWoogie/
 echo
 echo "===================================================="
 echo "-= Git fetch =-"
